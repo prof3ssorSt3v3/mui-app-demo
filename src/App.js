@@ -1,10 +1,11 @@
 import React, { Fragment } from 'react';
+import './app.css';
 // import CssBaseline from '@mui/material/CssBaseline'; //css normalize
 import Container from '@mui/material/Container'; //section or page wrapper
 import Typography from '@mui/material/Typography'; //any text block basically
 import Box from '@mui/material/Box'; //div basically
 
-// import TabBunch from './TabBunch';
+import TabBunch from './TabBunch';
 // import IconBunch from './IconBunch';
 // import CardBunch from './CardBunch';
 // import ListBunch from './ListBunch';
@@ -15,7 +16,7 @@ function App() {
   return (
     <Fragment>
       <Container maxWidth="lg" sx={{ p: 2, bgcolor: 'background.paper' }}>
-        <Typography color="primary" variant="h1">
+        <Typography color="primary" variant="h1" className="eduard">
           Website Title
         </Typography>
         <Typography variant="h2" align="center" color="text.primary">
@@ -37,6 +38,8 @@ function App() {
         <Typography variant="button">button</Typography>
 
         <Box>This is a Box component</Box>
+
+        <TabBunch />
       </Container>
     </Fragment>
   );

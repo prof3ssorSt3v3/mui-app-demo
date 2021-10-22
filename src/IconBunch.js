@@ -9,7 +9,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import DeleteIcon from '@mui/icons-material/Delete';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import AlarmIcon from '@mui/icons-material/Alarm';
-import Fingerprint from '@mui/icons-material/Fingerprint';
+import FingerprintIcon from '@mui/icons-material/Fingerprint';
 import SendIcon from '@mui/icons-material/Send';
 
 export default function IconBunch(props) {
@@ -36,7 +36,7 @@ export default function IconBunch(props) {
           <AddShoppingCartIcon />
         </IconButton>
         <IconButton aria-label="fingerprint" color="success">
-          <Fingerprint />
+          <FingerprintIcon />
         </IconButton>
         <Typography variant="body2">Some IconButtons</Typography>
       </Stack>

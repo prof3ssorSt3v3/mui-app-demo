@@ -12,6 +12,7 @@ export default function ListBunch(props) {
   return (
     <>
       <Typography variant="h2">A List of Items</Typography>
+
       <Box sx={{ width: '50%', maxWidth: 360, bgcolor: 'background.paper' }}>
         <List component="nav">
           <ListSubheader>

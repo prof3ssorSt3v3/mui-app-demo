@@ -1,17 +1,34 @@
-import React from 'react';
+import { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './index.css';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <StrictMode>
     <App />
-  </React.StrictMode>,
+  </StrictMode>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+/**
+ * Instructions
+ * run `yarn install` or `npm install` to add all the packages.
+ *
+ * the extra installs that were made beyond create-react-app are:
+ *
+ * yarn add @mui/material @emotion/react @emotion/styled
+ * yarn add @mui/icons-material
+ *
+ * Then these links were added in the `<head>` of
+ * /public/index.html
+ *
+ * <link
+ *    rel="stylestyle"
+ *    href="https://fonts.googleapis.com/css/?family=Material+Icons"
+ *  />
+ *  <link
+ *    rel="stylesheet"
+ *    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+ *  />
+ *
+ */
